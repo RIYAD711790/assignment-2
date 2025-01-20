@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* nav-style */
+.display-flex{display: flex;}
+.nav-container{display: flex;
+justify-content: space-between;
+width: 1440px;
+height: 102px;
+align-items: center;
+padding: 20px;
+margin: 10px;}
+.nav-links{display: flex;
+list-style: none;
+gap: 32px;
+}
+.nav-link{text-decoration: none;}
+.btn-c{width: 197px;
+height: 50px;
+padding: 10px;
+margin: 10px;
+border-radius: 12px;
+background-color: orange;
+border: none;}
+.color1{color:orange;}
+.color2{color:skyblue;}
+.color3{color:#05D4DF;}
+.color4{color:#5D58EF;}
+/* student-age style */
+.student-age{display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+.age-container{width: 640px;
+height: 306px;
+}
+.age-btn{width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+@media screen and (max-width:576px){
+    .nav-container, .student-age, .nav-links{flex-direction: column;}
+    
+}
