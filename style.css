@@ -62,6 +62,7 @@ margin-top: 60px;}
   height: 476.78px;
  border-radius: 18px;
  text-align: center;
+ background-image: linear-gradient(rgb(238, 221, 241), rgb(255, 255, 255));
  }
  .curri-container{
   width: 1160px;
@@ -71,16 +72,79 @@ margin-top: 60px;}
   align-items: center;
   gap: 28px;
   margin: 80px;
+  
 }
 .s{background-image: url(assets/bg.png);}
 .a{text-decoration: none;color: #05D4DF;}
 .b{text-decoration: none;color:orange;}
 .c{text-decoration: none;color:#8700FF;}
+/* sub-story style */
+.sub-story{width: 540.27px;
+height: 630.52px;
+border-radius: 16px;
+text-align: center;
+margin-bottom: 80px;
+background-color: #FFFFFF;
+
+}
+.date-btn{width: 174.51px;
+height: 47.93px;
+background-color: #3CD8E8;
+border-radius: 47.93px;
+border: none;
+margin-left:-300px;
+margin-top:-100px;
+}
+.btn-card{width: 150px;
+height: 40px;
+background-color:#95B226;
+border-radius: 47.93px;
+border: none;
+margin-left:-250px;
+margin-top:-100px}
+.card-2{background-color: #FFFFFF;
+width: 290.69px;
+height: 301.61px;
+border-radius: 10px;
+
+}
+
+.baby{border-radius: 10px;}
+/* .storis-container{display: flex;} */
+.sub-storis{display: grid;
+grid-template-columns: repeat(2,1fr);
+width: 601px;
+height: 622.4px;
+gap: 30px;}
+.t{background-image: url(assets/bg.png);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(170, 156, 91));}
+.storis-container{display: flex;
+gap: 19px;
+/* justify-content:space-around; */
+margin-left: 80px;
+}
+.view-btn{width: 197px;
+height: 50px;
+padding: 10px 10px;
+border-radius: 12px;
+margin-left: 530px;
+margin-bottom: 60px;}
+
+
+
+
 @media only screen and (max-width:576px) {
   .student-age{
-     flex-direction: column-reverse;
-  }
-  .curri-container{display: grid;
-  grid-template-columns: 1fr;}
+     flex-direction: column-reverse;}
+    }
+@media only screen and (max-width:576px) {
+      .curri-container{
+         flex-direction: column;}
+        }
+@media only screen and (max-width:576px) {
+          .storis-container{
+             flex-direction:column;}
+            }
   
-}
+
+  
