@@ -35,10 +35,9 @@ border: none;}
 .student-age{display: flex;
 
 gap: 50px;
-/* width: 1158.61px; */
-/* height: 575px; */
-
 }
+.age-title{
+font-size: 56px;}
 .age-container{width: 640px;
 height: 306px;
 margin:24px;
@@ -56,7 +55,12 @@ height: 575px;}
 
 /* card style */
 .section-title{text-align: center;
-margin-top: 60px;}
+margin-top: 100px;
+font-weight: 800;
+font-size: 46px;}
+.kinder{font-weight: 800;
+font-size:25px;}
+.dark{color: #666666;}
 .card-1{border: 1px solid rgb(235, 235, 241);
   width: 367.8px;
   height: 476.78px;
@@ -76,7 +80,7 @@ margin-top: 60px;}
 }
 .s{background-image: url(assets/bg.png);}
 .a{text-decoration: none;color: #05D4DF;}
-.b{text-decoration: none;color:orange;}
+.bd{text-decoration: none;color:#F0AA00;}
 .c{text-decoration: none;color:#8700FF;}
 /* sub-story style */
 .sub-story{width: 540.27px;
@@ -84,8 +88,11 @@ height: 630.52px;
 border-radius: 16px;
 text-align: center;
 margin-bottom: 80px;
-background-color: #FFFFFF;
-
+background-color: #FFFFFF;}
+.s-title{font-weight: 800;
+font-size: 24px;}
+.ss-title{font-weight: 800;
+font-size: 15.5px;
 }
 .date-btn{width: 174.51px;
 height: 47.93px;
@@ -114,14 +121,13 @@ border-radius: 10px;
 grid-template-columns: repeat(2,1fr);
 width: 601px;
 height: 622.4px;
-gap: 30px;}
+gap: 30px;
+}
 .t{background-image: url(assets/bg.png);
   background-image: linear-gradient(rgb(255, 255, 255), rgb(170, 156, 91));}
 .storis-container{display: flex;
 gap: 19px;
-/* justify-content:space-around; */
-margin-left: 80px;
-}
+margin-left: 80px;}
 .b{color: #FFFFFF;}
 .view-btn{width: 197px;
 height: 50px;
@@ -142,8 +148,7 @@ background-color:;}
 .last-container{width: 1439px;
 height: 519px;
 width:100%;
-background-color: #01ACFD;
-}
+background-color: #01ACFD;}
 .card-container{width: 1070.91px;
 height: 222px;
 justify-content:space-between;
