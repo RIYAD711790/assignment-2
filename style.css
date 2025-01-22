@@ -66,10 +66,10 @@ margin-top: 60px;}
  }
  .curri-container{
   width: 1160px;
-  height: 481.5px;
+  /* height: 481.5px; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 28px;
   margin: 80px;
   
@@ -144,16 +144,11 @@ background-color:;}
 height: 519px;
 width:100%;
 background-color: #01ACFD;
-
-
 }
 .card-container{width: 1070.91px;
 height: 222px;
 justify-content:space-between;
 padding: 122px 227px 175px 172px;
-
-margin: auto;
-
 }
 .logo-img{display: flex;}
 
@@ -161,6 +156,15 @@ margin: auto;
 
 
 
+@media only screen and (max-width:576px) {
+  .nav-links, .btn-c{
+    display: none;
+   
+  }
+  .nav-container{}
+  
+    }
+    
 @media only screen and (max-width:576px) {
   .student-age{
      flex-direction: column-reverse;}
@@ -171,13 +175,18 @@ margin: auto;
         }
 @media only screen and (max-width:576px) {
           .storis-container{
-             flex-direction:column;}
+             flex-direction:column;
+            
+          }
+             .sub-story{display: none;}
+             
             }
 @media only screen and (max-width:576px) {
           .card-container{
              flex-direction:column;
-             margin-left: 50px;
             }
+            .last-container{height: 665px;
+              }
             }
   
 
