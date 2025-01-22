@@ -108,9 +108,8 @@ height: 301.61px;
 border-radius: 10px;
 
 }
-
-.baby{border-radius: 10px;}
 /* .storis-container{display: flex;} */
+.baby{border-radius: 10px;}
 .sub-storis{display: grid;
 grid-template-columns: repeat(2,1fr);
 width: 601px;
@@ -176,9 +175,8 @@ padding: 122px 227px 175px 172px;
 @media only screen and (max-width:576px) {
           .storis-container{
              flex-direction:column;
-            
-          }
-             .sub-story{display: none;}
+            }
+          .sub-story{display: none;}
              
             }
 @media only screen and (max-width:576px) {
